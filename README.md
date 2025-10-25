@@ -35,11 +35,19 @@ uv is a fast Python package manager. Install it globally:
 ### 2. Clone the Repository
 Clone this project from GitHub to your local machine:
 - Open a terminal (PowerShell on Windows).
-- Run:
-  ```
-  git clone https://github.com/your-username/your-repo-name.git
-  ```
-  Replace `your-username/your-repo-name` with the actual GitHub repository URL.
+
+- If you have git installed (check with `git --version` in terminal), run:
+
+    - ```git clonehttps://github.com/wesonis/proj_589.git ```
+
+- vscode has git extensions that can do this in a gui if you prefer
+
+- other options for version control include forking and setting up a codespace, or downloading as a .zip file (look for green `<> code` button in github repo, near top right)
+
+
+
+
+
 - Navigate into the project folder:
   ```
   cd your-repo-name
