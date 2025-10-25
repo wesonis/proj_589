@@ -1,6 +1,6 @@
 # ML589 Project
 
-This is a Python project for ML589. It uses uv for dependency management and includes libraries like PyTorch, scikit-learn, Jupyter, Numpy, and Pandas. The dependencies are simply a grab-bag of common python libraries used in AI/ML applications - it can be changed or modified depending on our needs, but will give us a reasonable starting point.
+This is a Python project for MAE589/MAE495 Scientific Machine Learning, Fall 2025. It uses uv for dependency management and includes libraries like PyTorch, scikit-learn, Jupyter, Numpy, and Pandas. The dependencies are simply a grab-bag of common python libraries used in AI/ML applications - it can be changed or modified depending on our needs, but will give us a reasonable starting point.
 
 *uv is a newer all-in-one python development tool. uv comes bundled with tools like `pip`, automatically manages python versions. helps a ton with interoperability and reproducibility.*
 
@@ -35,11 +35,19 @@ uv is a fast Python package manager. Install it globally:
 ### 2. Clone the Repository
 Clone this project from GitHub to your local machine:
 - Open a terminal (PowerShell on Windows).
-- Run:
-  ```
-  git clone https://github.com/your-username/your-repo-name.git
-  ```
-  Replace `your-username/your-repo-name` with the actual GitHub repository URL.
+
+- If you have git installed (check with `git --version` in terminal), run:
+
+    - ```git clonehttps://github.com/wesonis/proj_589.git ```
+
+- vscode has git extensions that can do this in a gui if you prefer
+
+- other options for version control include forking and setting up a codespace, or downloading as a .zip file (look for green `<> code` button in github repo, near top right)
+
+
+
+
+
 - Navigate into the project folder:
   ```
   cd your-repo-name
