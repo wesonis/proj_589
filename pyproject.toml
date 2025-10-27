@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13, <3.14"
 dependencies = [
+    "jax>=0.8.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.7",
     "numpy>=2.3.4",
@@ -73,12 +74,17 @@ exclude = [
     "venv",
 ]
 
+# [tool.uv.env]
+# MY_VAR = "my_value"
+# ANOTHER_VAR = "another_value"
+
+
 [tool.ruff.format]
 # Prefer single quotes over double quotes.
 quote-style = "double"
 
 [dependency-groups]
 dev = [
-
-    "ruff"
+    "deepxde>=1.14.0",
+    "ruff",
 ]
