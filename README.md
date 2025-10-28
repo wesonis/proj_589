@@ -40,7 +40,7 @@
   - Neural Operators ([DeepONet](https://github.com/lululxvi/deeponet))
 - We have a month; should not be too optimistic, and extending an example/cited paper from above would be feasible
 - Check examples to see N 2d Navier Stokes example that I was able to run on my laptop GPU with ~15 minutes training
-- Repo from Class, spring oscillator example 10_28_25: (sciml course repo)[https://kks32-courses.github.io/sciml/]
+- Repo from Class, spring oscillator example 10_28_25: (sciml course repo)[https://kks32-courses.github.io/sciml/01-pinns/pinns.html]
 
 
 
