@@ -1,4 +1,34 @@
-# ML589 Project
+# Important Dates and Info
+## Dates
+| Event                      | Date           |
+| -------------------------- | -------------- |
+| HW4                        | October 31     |
+| Exam                       | November 4     |
+| HW5                        | November 14    |
+| HW6                        | November 21    |
+| **Course End/Project Due** | **December 2** |
+
+## Quick Project Notes
+
+### Snippets from Lecture About Project
+- develop in PyTorch "or whatever you prefer"
+- report results
+- If undergraduate students want to work with graduate students, prof. needs to know what the project is so he can evaluate the feasibility
+- do not need a presentation
+- Recommendation: suggest access to cluster/hazel
+- Recommendation: choose a project that doesn't require a ton of data
+- Doesn't have to be novel
+
+### Paper Requirements
+- 5 pages
+  - introduction
+  - configuration
+  - results
+  - discussion
+
+
+
+# ML589 Project Repo
 
 This is a Python project for MAE589/MAE495 Scientific Machine Learning, Fall 2025. It uses uv for dependency management and includes libraries like PyTorch, scikit-learn, Jupyter, Numpy, and Pandas. The dependencies are simply a grab-bag of common python libraries used in AI/ML applications - it can be changed or modified depending on our needs, but will give us a reasonable starting point.
 
@@ -44,10 +74,6 @@ Clone this project from GitHub to your local machine:
 
 - other options for version control include forking and setting up a codespace, or downloading as a .zip file (look for green `<> code` button in github repo, near top right)
 
-
-
-
-
 - Navigate into the project folder:
   ```
   cd your-repo-name
@@ -86,3 +112,4 @@ Clone this project from GitHub to your local machine:
 - If you encounter merge conflicts, resolve them in your editor and commit again.
 
 For more help, check [GitHub Docs](https://docs.github.com/en/get-started) or [uv Docs](https://docs.astral.sh/uv/).
+
