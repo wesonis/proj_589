@@ -26,6 +26,23 @@
   - results
   - discussion
 
+## Project Discussion
+
+### DeepXDE/DeepONet
+
+[Example Paper](<examples/Raissi et al. - 2019 - Physics-informed neural networks A deep learning framework for solving forward and inverse problems.pdf>)
+
+[Example Python Script](examples/Navier_Stokes_inverse.py)
+
+- I think it's worth looking into some of the available packages and example projects relating to PINNs/Deep Operators
+  - PINNs more Broadly([DeepXDE Repo](https://github.com/lululxvi/deepxde))
+  - [DeepXDE Docs - Relevant Research](https://deepxde.readthedocs.io/en/latest/user/research.html)
+  - Neural Operators ([DeepONet](https://github.com/lululxvi/deeponet))
+- We have a month; should not be too optimistic, and extending an example/cited paper from above would be feasible
+- Check examples to see N 2d Navier Stokes example that I was able to run on my laptop GPU with ~15 minutes training
+- Repo from Class, spring oscillator example 10_28_25: (sciml course repo)[https://kks32-courses.github.io/sciml/]
+
+
 
 
 # ML589 Project Repo
@@ -33,7 +50,6 @@
 This is a Python project for MAE589/MAE495 Scientific Machine Learning, Fall 2025. It uses uv for dependency management and includes libraries like PyTorch, scikit-learn, Jupyter, Numpy, and Pandas. The dependencies are simply a grab-bag of common python libraries used in AI/ML applications - it can be changed or modified depending on our needs, but will give us a reasonable starting point.
 
 *uv is a newer all-in-one python development tool. uv comes bundled with tools like `pip`, automatically manages python versions. helps a ton with interoperability and reproducibility.*
-
 
 ## Prerequisites
 
