@@ -68,7 +68,7 @@ Clone this project from GitHub to your local machine:
 
 - If you have git installed (check with `git --version` in terminal), run:
 
-    - ```git clonehttps://github.com/wesonis/proj_589.git ```
+    - ```git clone https://github.com/wesonis/proj_589.git ```
 
 - vscode has git extensions that can do this in a gui if you prefer
 
